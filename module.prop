@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v2.0
-versionCode=10
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=miui13optimizebysqw
+name=miui13优化
+version=v0.1
+versionCode=20220617
+author=酷安@怀念是一首潦草的诗
+description=简单优化Miui13并修改8G内存设备的默认zram配置
