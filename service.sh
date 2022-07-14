@@ -25,6 +25,9 @@ echo 0 > /proc/sys/vm/page-cluster
 # 将 虚拟内存 更新间隔更改为 20(秒)
 echo 20 > /proc/sys/vm/stat_interval
 ##########################
+# 调整swappniess
+#echo 180 > /proc/sys/vm/swappiness
+##########################
 # 禁用 F2FS IO统计 Android 12+
 echo 0 > /dev/sys/fs/by-name/userdata/iostat_enable
 ##########################
