@@ -46,6 +46,10 @@ stop vendor.ipacm-diag
 stop tcpdump
 stop statsd
 ##########################
+# 开启内存扩展的情况下，将zram写入回环设备的I/O调速器从mq-deadline修改为none
+z_loop=$(cat /sys/block/zram0/backing_dev | grep -o "loop[0-9]*")
+[[ -n $z_loop ]] && echo "none" > /sys/block/$z_loop/queue/scheduler
+##########################
 # 删除已创建的 wlan_logs
 rm -rf /data/vendor/wlan_logs
 ##########################
