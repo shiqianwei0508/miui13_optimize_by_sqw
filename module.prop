@@ -1,6 +1,6 @@
 id=miui13optimizebysqw
 name=miui13优化
-version=v0.3
+version=v0.4
 versionCode=20220715
 author=酷安@怀念是一首潦草的诗
 description=简单优化Miui13并修改8G内存设备的默认zram配置;优化代码来自酷安@Amktiao;手机管家来自酷安@andlao
